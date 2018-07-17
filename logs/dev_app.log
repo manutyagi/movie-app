@@ -1,0 +1,764 @@
+2018-07-17 09:25:49,063 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-17 09:25:49,065 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@35cabb2a: startup date [Mon Jul 16 23:47:03 IST 2018]; root of context hierarchy
+2018-07-17 09:25:49,066 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 09:25:49,070 INFO  [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:17}] to localhost:27017 because the pool has been closed.
+2018-07-17 09:25:57,352 DEBUG [background-preinit] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 09:25:57,374 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 09:25:57,374 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 09:25:57,374 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 09:25:57,375 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 09:25:57,375 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 09:25:57,447 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 14195 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 09:25:57,449 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 09:25:57,509 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@223d2c72: startup date [Tue Jul 17 09:25:57 IST 2018]; root of context hierarchy
+2018-07-17 09:25:58,834 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 09:25:58,863 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 09:25:58,864 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 09:25:58,873 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 09:25:58,952 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 09:25:59,078 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 09:25:59,082 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 09:25:59,082 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 09:25:59,082 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 09:25:59,083 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 09:25:59,413 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 09:25:59,506 INFO  [cluster-ClusterId{value='5b4d68cf7e6f14377301a508', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:19}] to localhost:27017
+2018-07-17 09:25:59,511 INFO  [cluster-ClusterId{value='5b4d68cf7e6f14377301a508', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3325231}
+2018-07-17 09:25:59,891 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 09:25:59,891 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 09:25:59,899 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 09:25:59,900 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 09:25:59,900 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 09:25:59,900 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 09:25:59,901 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 09:25:59,901 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 09:25:59,902 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 09:25:59,902 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 09:25:59,902 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 09:25:59,906 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 09:25:59,906 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 09:25:59,906 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 09:25:59,906 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 09:25:59,906 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 09:26:00,402 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 09:26:00,432 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-17 09:26:00,435 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Started MovieAppApplication in 3.52 seconds (JVM running for 4.062)
+2018-07-17 09:53:00,194 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-17 09:53:00,194 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@223d2c72: startup date [Tue Jul 17 09:25:57 IST 2018]; root of context hierarchy
+2018-07-17 09:53:00,197 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 09:53:32,181 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 14984 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 09:53:32,184 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 09:53:32,226 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@515aebb0: startup date [Tue Jul 17 09:53:32 IST 2018]; root of context hierarchy
+2018-07-17 09:53:33,160 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 09:53:33,175 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 09:53:33,176 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 09:53:33,180 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 09:53:33,228 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 09:53:33,314 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 09:53:33,317 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 09:53:33,318 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 09:53:33,318 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 09:53:33,318 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 09:53:33,558 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 09:53:33,608 INFO  [cluster-ClusterId{value='5b4d6f457e6f143a88fa2772', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:20}] to localhost:27017
+2018-07-17 09:53:33,611 INFO  [cluster-ClusterId{value='5b4d6f457e6f143a88fa2772', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1981470}
+2018-07-17 09:53:33,950 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 09:53:33,952 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 09:53:33,959 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 09:53:33,960 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 09:53:33,961 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 09:53:33,961 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 09:53:33,962 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 09:53:33,963 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 09:53:33,963 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 09:53:33,963 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 09:53:33,963 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 09:53:33,967 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 09:53:33,967 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 09:53:33,968 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 09:53:33,968 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 09:53:33,968 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 09:53:34,458 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 09:53:34,498 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-17 09:53:34,500 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Started MovieAppApplication in 2.755 seconds (JVM running for 3.204)
+2018-07-17 09:53:46,306 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-17 09:53:46,416 INFO  [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 09:53:46,416 WARN  [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 09:53:46,416 ERROR [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is an error message
+2018-07-17 09:53:46,453 INFO  [http-nio-8080-exec-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:21}] to localhost:27017
+2018-07-17 09:54:10,723 INFO  [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 09:54:10,723 WARN  [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 09:54:10,723 ERROR [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is an error message
+2018-07-17 09:54:25,136 INFO  [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 09:54:25,137 WARN  [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 09:54:25,137 ERROR [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is an error message
+2018-07-17 09:59:15,399 DEBUG [background-preinit] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 09:59:15,411 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 09:59:15,411 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 09:59:15,412 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 09:59:15,412 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 09:59:15,412 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 09:59:15,475 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 15216 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 09:59:15,476 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 09:59:15,518 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c5eefef: startup date [Tue Jul 17 09:59:15 IST 2018]; root of context hierarchy
+2018-07-17 09:59:16,475 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 09:59:16,495 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 09:59:16,495 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 09:59:16,500 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 09:59:16,561 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 09:59:16,662 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 09:59:16,666 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 09:59:16,667 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 09:59:16,667 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 09:59:16,667 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 09:59:16,967 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 09:59:17,021 INFO  [cluster-ClusterId{value='5b4d709c7e6f143b704dd3d6', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:22}] to localhost:27017
+2018-07-17 09:59:17,024 INFO  [cluster-ClusterId{value='5b4d709c7e6f143b704dd3d6', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2336275}
+2018-07-17 09:59:17,372 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 09:59:17,372 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 09:59:17,377 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 09:59:17,379 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 09:59:17,380 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 09:59:17,380 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 09:59:17,381 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 09:59:17,381 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 09:59:17,382 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 09:59:17,382 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 09:59:17,382 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 09:59:17,385 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 09:59:17,386 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 09:59:17,386 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 09:59:17,386 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 09:59:17,386 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 09:59:17,832 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 09:59:17,848 ERROR [main] org.apache.catalina.core.StandardService : Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.stackroute.movieapp.MovieAppApplication.main(MovieAppApplication.java:10)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-07-17 09:59:17,850 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2018-07-17 09:59:17,858 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-07-17 09:59:17,861 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-07-17 09:59:17,862 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c5eefef: startup date [Tue Jul 17 09:59:15 IST 2018]; root of context hierarchy
+2018-07-17 09:59:17,863 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 09:59:24,314 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-17 09:59:24,314 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@515aebb0: startup date [Tue Jul 17 09:53:32 IST 2018]; root of context hierarchy
+2018-07-17 09:59:24,316 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 09:59:24,320 INFO  [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:21}] to localhost:27017 because the pool has been closed.
+2018-07-17 09:59:35,355 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 15267 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 09:59:35,358 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 09:59:35,401 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d763516: startup date [Tue Jul 17 09:59:35 IST 2018]; root of context hierarchy
+2018-07-17 09:59:36,356 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 09:59:36,372 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 09:59:36,372 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 09:59:36,376 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 09:59:36,428 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 09:59:36,517 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 09:59:36,521 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 09:59:36,521 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 09:59:36,521 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 09:59:36,521 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 09:59:36,763 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 09:59:36,811 INFO  [cluster-ClusterId{value='5b4d70b07e6f143ba3cebd10', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:23}] to localhost:27017
+2018-07-17 09:59:36,820 INFO  [cluster-ClusterId{value='5b4d70b07e6f143ba3cebd10', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7141569}
+2018-07-17 09:59:37,179 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 09:59:37,181 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 09:59:37,188 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 09:59:37,189 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 09:59:37,189 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 09:59:37,190 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 09:59:37,191 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 09:59:37,192 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 09:59:37,192 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 09:59:37,192 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 09:59:37,192 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 09:59:37,196 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 09:59:37,197 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 09:59:37,197 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 09:59:37,197 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 09:59:37,197 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 09:59:37,717 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 09:59:37,751 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-17 09:59:37,754 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Started MovieAppApplication in 2.791 seconds (JVM running for 3.237)
+2018-07-17 10:00:03,435 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-17 10:00:03,532 INFO  [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 10:00:03,532 WARN  [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 10:00:03,532 ERROR [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is an error message
+2018-07-17 10:00:03,563 INFO  [http-nio-8080-exec-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:24}] to localhost:27017
+2018-07-17 10:00:14,201 INFO  [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 10:00:14,201 WARN  [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 10:00:14,201 ERROR [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is an error message
+2018-07-17 10:00:20,961 INFO  [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 10:00:20,961 WARN  [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 10:00:20,961 ERROR [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is an error message
+2018-07-17 10:00:26,146 INFO  [http-nio-8080-exec-4] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 10:00:26,146 WARN  [http-nio-8080-exec-4] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 10:00:26,146 ERROR [http-nio-8080-exec-4] com.stackroute.movieapp.controller.MovieController : This is an error message
+2018-07-17 11:18:02,689 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-17 11:18:02,689 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d763516: startup date [Tue Jul 17 09:59:35 IST 2018]; root of context hierarchy
+2018-07-17 11:18:02,691 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 11:18:02,694 INFO  [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:24}] to localhost:27017 because the pool has been closed.
+2018-07-17 11:18:15,808 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 17030 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 11:18:15,811 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 11:18:15,846 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d7275fc: startup date [Tue Jul 17 11:18:15 IST 2018]; root of context hierarchy
+2018-07-17 11:18:16,724 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 11:18:16,740 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 11:18:16,740 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 11:18:16,744 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 11:18:16,790 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 11:18:16,881 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 11:18:16,887 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 11:18:16,887 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 11:18:16,887 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 11:18:16,887 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 11:18:17,132 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 11:18:17,176 INFO  [cluster-ClusterId{value='5b4d83217e6f144286e268cd', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+2018-07-17 11:18:17,180 INFO  [cluster-ClusterId{value='5b4d83217e6f144286e268cd', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2416513}
+2018-07-17 11:18:17,538 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:18:17,539 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:18:17,545 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:18:17,547 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 11:18:17,547 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 11:18:17,548 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 11:18:17,549 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 11:18:17,549 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 11:18:17,550 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 11:18:17,550 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 11:18:17,550 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 11:18:17,557 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:18:17,557 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:18:17,557 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:18:17,558 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:18:17,558 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:18:18,082 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 11:18:18,113 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-17 11:18:18,116 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Started MovieAppApplication in 2.611 seconds (JVM running for 2.995)
+2018-07-17 11:18:41,918 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-17 11:18:42,019 ERROR [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is an error message
+2018-07-17 11:18:42,019 WARN  [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 11:18:42,019 INFO  [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 11:18:42,045 INFO  [http-nio-8080-exec-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:26}] to localhost:27017
+2018-07-17 11:18:59,336 ERROR [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is an error message
+2018-07-17 11:18:59,337 WARN  [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 11:18:59,337 INFO  [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 11:19:08,533 ERROR [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is an error message
+2018-07-17 11:19:08,533 WARN  [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 11:19:08,533 INFO  [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 11:21:42,702 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-17 11:21:42,702 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d7275fc: startup date [Tue Jul 17 11:18:15 IST 2018]; root of context hierarchy
+2018-07-17 11:21:42,705 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 11:21:42,709 INFO  [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:26}] to localhost:27017 because the pool has been closed.
+2018-07-17 11:21:52,144 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:21:52,150 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:21:52,150 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:21:52,150 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:21:52,150 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:21:52,219 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 17268 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 11:21:52,220 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 11:21:52,262 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d7275fc: startup date [Tue Jul 17 11:21:52 IST 2018]; root of context hierarchy
+2018-07-17 11:21:53,198 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 11:21:53,216 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 11:21:53,216 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 11:21:53,220 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 11:21:53,267 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 11:21:53,350 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 11:21:53,353 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 11:21:53,353 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 11:21:53,353 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 11:21:53,353 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 11:21:53,609 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 11:21:53,654 INFO  [cluster-ClusterId{value='5b4d83f97e6f14437435ec7b', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:27}] to localhost:27017
+2018-07-17 11:21:53,659 INFO  [cluster-ClusterId{value='5b4d83f97e6f14437435ec7b', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3242529}
+2018-07-17 11:21:54,019 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:21:54,020 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:21:54,029 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:21:54,030 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 11:21:54,030 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 11:21:54,031 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 11:21:54,032 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 11:21:54,033 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 11:21:54,033 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 11:21:54,034 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 11:21:54,034 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 11:21:54,039 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:21:54,039 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:21:54,040 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:21:54,040 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:21:54,040 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:21:54,572 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 11:21:54,605 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-17 11:21:54,609 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Started MovieAppApplication in 2.783 seconds (JVM running for 3.202)
+2018-07-17 11:22:08,061 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-17 11:22:08,149 WARN  [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 11:22:08,149 INFO  [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 11:22:08,172 INFO  [http-nio-8080-exec-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:28}] to localhost:27017
+2018-07-17 11:22:08,219 ERROR [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is an error message
+2018-07-17 11:22:46,716 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-17 11:22:46,716 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d7275fc: startup date [Tue Jul 17 11:21:52 IST 2018]; root of context hierarchy
+2018-07-17 11:22:46,718 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 11:22:46,720 INFO  [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:28}] to localhost:27017 because the pool has been closed.
+2018-07-17 11:23:00,734 DEBUG [background-preinit] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:23:00,743 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:23:00,744 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:23:00,744 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:23:00,744 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:23:00,744 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:23:00,810 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 17361 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 11:23:00,812 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 11:23:00,854 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1d2adfbe: startup date [Tue Jul 17 11:23:00 IST 2018]; root of context hierarchy
+2018-07-17 11:23:01,790 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 11:23:01,807 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 11:23:01,807 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 11:23:01,811 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 11:23:01,857 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 11:23:01,941 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 11:23:01,943 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 11:23:01,944 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 11:23:01,944 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 11:23:01,944 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 11:23:02,193 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 11:23:02,248 INFO  [cluster-ClusterId{value='5b4d843e7e6f1443d102160e', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:29}] to localhost:27017
+2018-07-17 11:23:02,251 INFO  [cluster-ClusterId{value='5b4d843e7e6f1443d102160e', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1942004}
+2018-07-17 11:23:02,614 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:23:02,614 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:23:02,621 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:23:02,622 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 11:23:02,622 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 11:23:02,623 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 11:23:02,624 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 11:23:02,625 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 11:23:02,625 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 11:23:02,625 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 11:23:02,625 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 11:23:02,630 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:23:02,630 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:23:02,630 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:23:02,630 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:23:02,630 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:23:03,148 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 11:23:03,179 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-17 11:23:03,182 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Started MovieAppApplication in 2.747 seconds (JVM running for 3.199)
+2018-07-17 11:23:07,176 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-17 11:23:07,274 WARN  [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 11:23:07,274 INFO  [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 11:23:07,298 INFO  [http-nio-8080-exec-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:30}] to localhost:27017
+2018-07-17 11:23:07,347 ERROR [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : There is a conflict with Id
+2018-07-17 11:26:11,113 DEBUG [background-preinit] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:26:11,121 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:26:11,121 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:26:11,122 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:26:11,122 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:26:11,122 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:26:11,181 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 17502 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 11:26:11,182 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 11:26:11,225 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c64cb25: startup date [Tue Jul 17 11:26:11 IST 2018]; root of context hierarchy
+2018-07-17 11:26:12,309 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 11:26:12,326 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 11:26:12,327 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 11:26:12,331 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 11:26:12,387 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 11:26:12,484 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 11:26:12,488 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 11:26:12,489 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 11:26:12,489 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 11:26:12,489 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 11:26:12,759 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 11:26:12,837 INFO  [cluster-ClusterId{value='5b4d84fc7e6f14445eecefda', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:31}] to localhost:27017
+2018-07-17 11:26:12,841 INFO  [cluster-ClusterId{value='5b4d84fc7e6f14445eecefda', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2521544}
+2018-07-17 11:26:13,183 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:26:13,184 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:26:13,193 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:26:13,194 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 11:26:13,194 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 11:26:13,194 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 11:26:13,195 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 11:26:13,195 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 11:26:13,195 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 11:26:13,196 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 11:26:13,196 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 11:26:13,200 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:26:13,200 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:26:13,200 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:26:13,200 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:26:13,200 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:26:13,656 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 11:26:13,675 ERROR [main] org.apache.catalina.core.StandardService : Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.stackroute.movieapp.MovieAppApplication.main(MovieAppApplication.java:10)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-07-17 11:26:13,678 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2018-07-17 11:26:13,687 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-07-17 11:26:13,690 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-07-17 11:26:13,691 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c64cb25: startup date [Tue Jul 17 11:26:11 IST 2018]; root of context hierarchy
+2018-07-17 11:26:13,693 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 11:26:20,830 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-17 11:26:20,830 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1d2adfbe: startup date [Tue Jul 17 11:23:00 IST 2018]; root of context hierarchy
+2018-07-17 11:26:20,831 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 11:26:20,834 INFO  [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:30}] to localhost:27017 because the pool has been closed.
+2018-07-17 11:26:37,240 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 17554 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 11:26:37,244 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 11:26:37,288 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1189dd52: startup date [Tue Jul 17 11:26:37 IST 2018]; root of context hierarchy
+2018-07-17 11:26:38,187 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 11:26:38,202 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 11:26:38,203 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 11:26:38,207 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 11:26:38,257 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 11:26:38,334 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 11:26:38,337 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 11:26:38,337 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 11:26:38,337 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 11:26:38,337 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 11:26:38,591 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 11:26:38,640 INFO  [cluster-ClusterId{value='5b4d85167e6f1444924179ba', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:32}] to localhost:27017
+2018-07-17 11:26:38,645 INFO  [cluster-ClusterId{value='5b4d85167e6f1444924179ba', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2596247}
+2018-07-17 11:26:38,980 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:26:38,982 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:26:38,988 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:26:38,989 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 11:26:38,989 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 11:26:38,989 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 11:26:38,990 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 11:26:38,990 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 11:26:38,990 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 11:26:38,991 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 11:26:38,991 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 11:26:38,996 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:26:38,996 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:26:38,997 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:26:38,997 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:26:38,997 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:26:39,495 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 11:26:39,524 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-17 11:26:39,527 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Started MovieAppApplication in 2.679 seconds (JVM running for 3.225)
+2018-07-17 11:26:55,754 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-17 11:26:55,755 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1189dd52: startup date [Tue Jul 17 11:26:37 IST 2018]; root of context hierarchy
+2018-07-17 11:26:55,757 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 11:27:09,722 DEBUG [background-preinit] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:27:09,732 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:27:09,732 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:27:09,733 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:27:09,733 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:27:09,733 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:27:09,803 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 17636 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 11:27:09,805 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 11:27:09,845 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e07db1f: startup date [Tue Jul 17 11:27:09 IST 2018]; root of context hierarchy
+2018-07-17 11:27:10,846 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 11:27:10,865 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 11:27:10,865 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 11:27:10,870 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 11:27:10,926 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 11:27:11,028 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 11:27:11,031 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 11:27:11,032 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 11:27:11,032 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 11:27:11,032 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 11:27:11,308 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 11:27:11,356 INFO  [cluster-ClusterId{value='5b4d85377e6f1444e41e8f2a', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:33}] to localhost:27017
+2018-07-17 11:27:11,359 INFO  [cluster-ClusterId{value='5b4d85377e6f1444e41e8f2a', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2182646}
+2018-07-17 11:27:11,700 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:27:11,701 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:27:11,708 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:27:11,709 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 11:27:11,710 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 11:27:11,711 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 11:27:11,712 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 11:27:11,712 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 11:27:11,712 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 11:27:11,712 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 11:27:11,712 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 11:27:11,715 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:27:11,715 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:27:11,715 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:27:11,716 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:27:11,716 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:27:12,199 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 11:27:12,228 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-17 11:27:12,231 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Started MovieAppApplication in 2.82 seconds (JVM running for 3.271)
+2018-07-17 11:27:29,464 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-17 11:27:38,690 WARN  [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 11:27:38,690 INFO  [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 11:27:38,690 DEBUG [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : This is a debug message
+2018-07-17 11:27:38,721 INFO  [http-nio-8080-exec-2] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:34}] to localhost:27017
+2018-07-17 11:27:52,743 WARN  [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is a warn message
+2018-07-17 11:27:52,743 INFO  [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is an info message
+2018-07-17 11:27:52,744 DEBUG [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : This is a debug message
+2018-07-17 11:27:52,751 ERROR [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : There is a conflict with Id
+2018-07-17 11:33:07,927 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 17934 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 11:33:07,931 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 11:33:07,975 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3febb011: startup date [Tue Jul 17 11:33:07 IST 2018]; root of context hierarchy
+2018-07-17 11:33:08,941 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 11:33:08,961 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 11:33:08,961 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 11:33:08,966 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 11:33:09,012 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 11:33:09,096 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 11:33:09,102 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 11:33:09,102 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 11:33:09,103 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 11:33:09,103 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 11:33:09,373 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 11:33:09,425 INFO  [cluster-ClusterId{value='5b4d869d7e6f14460ef1a2e1', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:35}] to localhost:27017
+2018-07-17 11:33:09,429 INFO  [cluster-ClusterId{value='5b4d869d7e6f14460ef1a2e1', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2985597}
+2018-07-17 11:33:09,780 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:33:09,782 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:33:09,789 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:33:09,790 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 11:33:09,791 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 11:33:09,791 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 11:33:09,792 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 11:33:09,793 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 11:33:09,793 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 11:33:09,793 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 11:33:09,793 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 11:33:09,799 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:33:09,799 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:33:09,799 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:33:09,799 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:33:09,799 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:33:10,311 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 11:33:10,328 ERROR [main] org.apache.catalina.core.StandardService : Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.stackroute.movieapp.MovieAppApplication.main(MovieAppApplication.java:10)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-07-17 11:33:10,331 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2018-07-17 11:33:10,339 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-07-17 11:33:10,342 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-07-17 11:33:10,343 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3febb011: startup date [Tue Jul 17 11:33:07 IST 2018]; root of context hierarchy
+2018-07-17 11:33:10,345 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 11:33:14,809 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-17 11:33:14,809 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e07db1f: startup date [Tue Jul 17 11:27:09 IST 2018]; root of context hierarchy
+2018-07-17 11:33:14,811 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 11:33:14,814 INFO  [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:34}] to localhost:27017 because the pool has been closed.
+2018-07-17 11:33:23,939 DEBUG [background-preinit] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:33:23,950 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:33:23,950 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:33:23,951 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:33:23,951 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:33:23,951 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:33:24,022 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 17981 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 11:33:24,023 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 11:33:24,067 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@399f45b1: startup date [Tue Jul 17 11:33:24 IST 2018]; root of context hierarchy
+2018-07-17 11:33:24,964 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 11:33:24,979 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 11:33:24,980 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 11:33:24,984 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 11:33:25,035 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 11:33:25,123 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 11:33:25,127 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 11:33:25,127 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 11:33:25,127 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 11:33:25,127 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 11:33:25,387 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 11:33:25,448 INFO  [cluster-ClusterId{value='5b4d86ad7e6f14463d507bf1', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:36}] to localhost:27017
+2018-07-17 11:33:25,451 INFO  [cluster-ClusterId{value='5b4d86ad7e6f14463d507bf1', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1921564}
+2018-07-17 11:33:25,799 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:33:25,800 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:33:25,808 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:33:25,809 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 11:33:25,809 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 11:33:25,810 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 11:33:25,811 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 11:33:25,811 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 11:33:25,811 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 11:33:25,811 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 11:33:25,812 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 11:33:25,817 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:33:25,817 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:33:25,818 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:33:25,818 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:33:25,818 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:33:26,313 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 11:33:26,338 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-17 11:33:26,340 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Started MovieAppApplication in 2.709 seconds (JVM running for 3.224)
+2018-07-17 11:33:34,807 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-17 11:33:34,909 INFO  [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : Movie = Movie [title=Movie8, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy]
+2018-07-17 11:33:34,909 DEBUG [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : Inside saveMovie()
+2018-07-17 11:33:34,938 INFO  [http-nio-8080-exec-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:37}] to localhost:27017
+2018-07-17 11:33:35,002 ERROR [http-nio-8080-exec-1] com.stackroute.movieapp.controller.MovieController : The Movie already exists
+2018-07-17 11:33:55,252 INFO  [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : Movie = Movie [title=Star Wrs, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy]
+2018-07-17 11:33:55,252 DEBUG [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : Inside saveMovie()
+2018-07-17 11:34:29,390 INFO  [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : Movie = Movie [title=Star Wrs, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy] Id10
+2018-07-17 11:34:29,390 DEBUG [http-nio-8080-exec-3] com.stackroute.movieapp.controller.MovieController : Inside updateMovie()
+2018-07-17 11:35:11,557 INFO  [http-nio-8080-exec-4] com.stackroute.movieapp.controller.MovieController : Movie = Movie [title=Star Wrs, year=2014, imdbId=qewqdwsfsq, type=Science Fiction] Id1
+2018-07-17 11:35:11,557 DEBUG [http-nio-8080-exec-4] com.stackroute.movieapp.controller.MovieController : Inside updateMovie()
+2018-07-17 11:35:11,559 ERROR [http-nio-8080-exec-4] com.stackroute.movieapp.controller.MovieController : The Movie does't exist
+2018-07-17 11:35:23,168 INFO  [http-nio-8080-exec-5] com.stackroute.movieapp.controller.MovieController : Movie = Movie [title=Star Wrs, year=2014, imdbId=qewqdwsfsq, type=Science Fiction] Id6
+2018-07-17 11:35:23,168 DEBUG [http-nio-8080-exec-5] com.stackroute.movieapp.controller.MovieController : Inside updateMovie()
+2018-07-17 11:41:34,175 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-17 11:41:34,175 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@399f45b1: startup date [Tue Jul 17 11:33:24 IST 2018]; root of context hierarchy
+2018-07-17 11:41:34,178 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2018-07-17 11:41:34,181 INFO  [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:37}] to localhost:27017 because the pool has been closed.
+2018-07-17 11:41:41,647 DEBUG [background-preinit] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:41:41,654 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:41:41,657 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:41:41,657 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:41:41,657 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:41:41,657 DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:41:41,701 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Starting MovieAppApplication on manu-bg1 with PID 18377 (/home/manu/Downloads/movie-app/target/classes started by manu in /home/manu/Downloads/movie-app)
+2018-07-17 11:41:41,702 INFO  [main] com.stackroute.movieapp.MovieAppApplication : No active profile set, falling back to default profiles: default
+2018-07-17 11:41:41,735 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@131774fe: startup date [Tue Jul 17 11:41:41 IST 2018]; root of context hierarchy
+2018-07-17 11:41:42,621 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2018-07-17 11:41:42,636 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-07-17 11:41:42,637 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-17 11:41:42,641 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-17 11:41:42,689 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-07-17 11:41:42,775 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-17 11:41:42,778 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-17 11:41:42,779 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-17 11:41:42,779 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-17 11:41:42,779 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-17 11:41:43,044 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-07-17 11:41:43,088 INFO  [cluster-ClusterId{value='5b4d889f7e6f1447c9a264bb', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:38}] to localhost:27017
+2018-07-17 11:41:43,093 INFO  [cluster-ClusterId{value='5b4d889f7e6f1447c9a264bb', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2889077}
+2018-07-17 11:41:43,421 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:41:43,421 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-17 11:41:43,428 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-17 11:41:43,429 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-17 11:41:43,430 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-17 11:41:43,430 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-17 11:41:43,431 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-17 11:41:43,432 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2018-07-17 11:41:43,432 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2018-07-17 11:41:43,432 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-17 11:41:43,432 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-17 11:41:43,436 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-17 11:41:43,436 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-17 11:41:43,436 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-17 11:41:43,437 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-17 11:41:43,437 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-17 11:41:43,947 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2018-07-17 11:41:43,982 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-17 11:41:43,985 INFO  [main] com.stackroute.movieapp.MovieAppApplication : Started MovieAppApplication in 2.608 seconds (JVM running for 2.994)
+2018-07-17 11:42:14,199 INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-17 11:42:14,292 INFO  [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : Movie = Movie [title=Star Wrs1, year=2014, imdbId=qewqdwsfsq, type=Science Fiction]
+2018-07-17 11:42:14,292 DEBUG [http-nio-8080-exec-2] com.stackroute.movieapp.controller.MovieController : Inside saveMovie()
+2018-07-17 11:42:14,319 INFO  [http-nio-8080-exec-2] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:39}] to localhost:27017
+2018-07-17 11:53:11,794 INFO  [http-nio-8080-exec-5] com.stackroute.movieapp.controller.MovieController : All movies = [Movie [title=Kite Runner 3, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Movie1, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Movie2, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Star Wrs, year=2014, imdbId=qewqdwsfsq, type=Science Fiction], Movie [title=Movie4, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Star Wrs, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Movie8, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Star Wrs, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Star Wrs1, year=2014, imdbId=qewqdwsfsq, type=Science Fiction]]
+2018-07-17 11:53:11,794 DEBUG [http-nio-8080-exec-5] com.stackroute.movieapp.controller.MovieController : Inside getAllMovies()
+2018-07-17 12:00:07,550 INFO  [http-nio-8080-exec-8] com.stackroute.movieapp.controller.MovieController : All movies = [Movie [title=Kite Runner 3, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Movie1, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Movie2, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Star Wrs, year=2014, imdbId=qewqdwsfsq, type=Science Fiction], Movie [title=Movie4, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Star Wrs, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Movie8, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Star Wrs, year=2014, imdbId=qewqdwsfsq, type=Superhero-comedy], Movie [title=Star Wrs1, year=2014, imdbId=qewqdwsfsq, type=Science Fiction]]
+2018-07-17 12:00:07,550 DEBUG [http-nio-8080-exec-8] com.stackroute.movieapp.controller.MovieController : Inside getAllMovies()
